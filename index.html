@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        header h1{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 10px 15px;
+        }
+        .contener{
+            background-color: white;
+
+            border: 2px solid black;
+            border-radius: 2px;
+            box-shadow: 0 10px 15px rgb(56, 36, 75);
+            margin: 475px 475px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .contener h1{
+            text-align: center;
+        }
+        .contener form{
+            margin: 15px 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        .contener input,textarea{
+            border: 2px solid black;
+            padding: 10px 10px;
+            margin: 5px 5px;
+        }
+        .contener button{
+            text-align: center;
+            background-color: rgb(11, 126, 5);
+            color: rgb(255, 255, 255);
+            margin-top: 25px;
+            padding: 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Online Shpping site-FeedBack Form
+        </h1>
+    </header>
+    <div class="contener">
+        <h1>We Respet Your Feedback</h1>
+        <form>
+            <h3>NAME:</h3>
+            <input placeholder="enter your name" required>
+            <h3>EMAIL:</h3>
+            <input placeholder="enter your email" required>
+            <h3>FEEDBACK</h3>
+            <textarea rows="5" placeholder="give uor feedback" required></textarea>
+            <button>Submit FeedBack</button>
+        </form>
+    </div>
+    <footer>
+        <p style="text-align: center; background-color: blue; color: white; padding: 15px 15px; ">&copy:2024 Online Shopping Site - Feedback Form</p>
+    </footer>
+</body>
+</html>
